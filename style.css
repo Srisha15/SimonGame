@@ -1,0 +1,43 @@
+body{
+    /* make the text come in centre */
+    text-align: center;  
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black ;
+    margin: 2.5rem;
+}
+
+.btnContainer{
+    /* bring them in a row next to each other --same line */
+    display: flex;
+    /* bring them to centre */
+    justify-content: center;
+}
+
+.red{
+    background-color: rgb(248, 101, 101);
+}
+
+.green{
+    background-color: rgb(79, 207, 79);
+}
+
+.orange{
+    background-color: orange;
+}
+
+.violet{
+    background-color: rgb(245, 163, 245);
+}
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: rgb(128, 228, 241);
+}
